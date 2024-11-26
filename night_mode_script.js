@@ -2,7 +2,7 @@ const savedTheme = getCookie('theme')?.trim();
 if (savedTheme === "dark") {
     document.body.classList.add('dark-theme');
     document.querySelector('header').classList.add('dark-theme');
-    document.querySelector('.lessons-list').classList.add('dark-theme');
+    document.querySelector('.lessons-list')?.classList.add('dark-theme');
     document.querySelectorAll('.container').forEach((el) => {
         el.classList.add('dark-theme')
     });
