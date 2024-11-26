@@ -367,6 +367,8 @@ a.dark-theme {
    background: #1f1f1f;
    border: 1px solid #0a58ca
 }
+/*
 body, .container, header, .lesson-item {
    transition: background-color 0.3s ease, color 0.3s ease;
 }
+*/
